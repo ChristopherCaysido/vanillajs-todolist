@@ -11,7 +11,11 @@ todoForm.addEventListener('submit', function(event){
   console.log('New todo:', todoText)  
 })
 
-// TODO: Refactor code - Create a function that creates the todo
+// TODO: Create an event listener for the clicking of the Task Done Button
+// Rough idea: 
+// 1. Click the button 
+// 2. A strike through will be added
+// 3. The todo item will move to the back of the line
 
 function createTodo(todo){
   // Get the todo container that will house the todo item
